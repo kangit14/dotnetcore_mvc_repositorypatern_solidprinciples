@@ -1,0 +1,39 @@
+﻿@model RepositoryPatern.Entities.Customer
+
+<h2>Add Customer</h2>
+
+<form asp-action="Edit">
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <label>Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <div>
+        <label>City</label>
+        <input asp-for="City" class="form-control" />
+    </div>
+    <div>
+        <label>Region</label>
+        <input asp-for="Region" class="form-control" />
+    </div>
+    <div>
+        <label>Postal Code</label>
+        <input asp-for="PostalCode" class="form-control" />
+    </div>
+    <div>
+        <label>Country</label>
+        <input asp-for="Country" class="form-control" />
+    </div>
+    <div>
+        <label>Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Save</button>
+</form>
